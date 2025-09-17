@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Freitag</title>
+    <style>
+        @keyframes view_on {
+            0% { background: rgba(0,0,0,0.5); }
+            50% { background: #b98657; }
+            100% { background: rgba(0,0,0,0.5); }
+        }
+        html { scroll-behavior: smooth; }
+        body { margin: 0; padding: 0; overflow-x: hidden; background: #483932; min-width: 320px; }
+        #wrap { width: 70%; margin: 0 auto; }
+        img { display: block; width: 100%; }
+        .btn { position: fixed; right: 15%; bottom: 0; transform: translateX(60px); }
+        .btn a { text-decoration: none; color: #fff; display: block; width: 60px; padding: 20px 0; text-align: center; }
+        .btn a.view { background: rgba(0,0,0,0.5); font-size: 14px; animation: view_on 3s infinite; }
+        .btn a.gotop { background: rgba(0,0,0,1); }
+    </style>
+</head>
+
+<body>
+    <a name="top"></a>
+    <div id="wrap">
+        <div class="btn"><a href="https://www.figma.com/proto/0Jw2PjrVyGVjKYZiW5xk45/%EC%A0%81%EC%9D%91%ED%98%95%EC%9B%B9_%EC%9D%B4%EC%A0%95%EC%97%B0?page-id=198%3A1091&node-id=198-1137&viewport=995%2C287%2C0.06&t=tdjeG5CTBLhsfEoU-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=198%3A1137&show-proto-sidebar=1" target="_blank" class="view">View</a><a href="#top" class="gotop">↑</a></div>
+        <img src="../images/portfolio/UI.png">
+        <img src="../images/portfolio/UX.png">    
+    </div>
+</body>
+</html>
